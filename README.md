@@ -1,2 +1,2 @@
-# jj-service
+# jjs
 Proof of concept generic service library

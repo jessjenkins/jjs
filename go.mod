@@ -1,3 +1,3 @@
-module github.com/jessjenkins/jj-service
+module github.com/jessjenkins/jjs
 
 go 1.18

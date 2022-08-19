@@ -1,23 +1,23 @@
-package service
+package jjs
 
-type Service struct {
+type Runner struct {
 }
 
-type SubService struct {
+type Service struct {
 	Name string
 }
 
 type Servicer interface {
 }
 
-func NewService() Service {
-	return Service{}
+func NewRunner() Runner {
+	return Runner{}
 }
 
-func (s *Service) AddSubService(name string, subservice Servicer, dep ...*SubService) *SubService {
-	return &SubService{Name: name}
+func (s *Runner) AddService(name string, subservice Servicer, dep ...*Service) *Service {
+	return &Service{Name: name}
 }
 
-func (s *Service) Run() {
+func (s *Runner) Run() {
 
 }
