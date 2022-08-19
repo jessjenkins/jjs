@@ -1,4 +1,4 @@
-package jj_service
+package service
 
 type Service struct {
 }
